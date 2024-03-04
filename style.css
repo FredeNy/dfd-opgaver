@@ -1,12 +1,85 @@
 :root {
-    --color-heading: #0B0D19;
-    --color-body: #677386;
-    --color-bg-button: #3D7BFA;
-    --color-text-button: #FFF;
+  --color-heading: #0b0d19;
+  --color-body: #677386;
+  --color-bg-button: #3d7bfa;
+  --color-text-button: #fff;
 
-    /* Når du synes, du er færdig, så ændr værdien herunder til '1' for at se dit resultat i browseren */
-    --hide-overlay: 0;
+  /* Når du synes, du er færdig, så ændr værdien herunder til '1' for at se dit resultat i browseren */
+  --hide-overlay: 1;
+}
+
+/* Begynd her... */
+
+.article {
+  margin: 10%;
+}
+
+h1 {
+  color: black;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: gray;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #3d7bfa;
+  color: #fff;
+  border-radius: 20%;
+}
+
+.grid_2-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+img {
+  width: 200px;
+  border-radius: 10%;
+}
+
+/*
+.img1 {
+    display: flex;
 }
 
 
-/* Begynd her... */
+.img2 {
+    display: flex;
+}
+
+
+.img3 {
+    display: flex;
+}
+
+
+.img4 {
+    display: flex;
+}
+
+
+.img5 {
+    display: flex;
+}
+
+
+.img6 {
+    display: flex;
+}
+
+
+.img7 {
+    display: flex;
+}
+*/
